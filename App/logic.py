@@ -28,6 +28,7 @@ import csv
 import os
 
 data_dir = os.path.dirname(os.path.realpath('__file__')) + '/Data/'
+from DataStructures import array_list as lt
 
 """
 El controlador se encarga de mediar entre la vista y el modelo.
